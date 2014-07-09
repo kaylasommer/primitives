@@ -52,26 +52,26 @@ if(age >= 21){
 // this is a switch statement
 //
 
-
-var color = 'blue';
-switch (color){
+var color = 'purple';
+switch (color) {
   case 'green':
     console.log('i see green');
     break;
-}
-switch (color){
   case 'orange':
-     console.log('i see orange');
+    console.log('i see orange');
     break;
-}
-switch (color){
-  case 'blue':
-     console.log('i see blue');
-    break;
-}
-switch (color){
   case 'pink':
-     console.log('i see pink');
+    console.log('i see pink');
+    break;
+  case 'red':
+    console.log('i see red');
+    break;
+  case 'purple':
+    console.log('i see purple');
+    break;
+  default: 
+    console.log('i dont see a color');
+    break;
 }
 
 //while loop
